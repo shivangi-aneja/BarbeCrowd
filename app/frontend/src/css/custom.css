@@ -1,0 +1,253 @@
+.bg-wood {
+    background-color: rgb(37, 37, 37);
+}
+
+@font-face {
+    font-family: barbecrowd;
+    src: url(../fonts/barbecrowd.ttf) format('ttf');
+  }
+
+.navbar-brand {
+    font-family: barbecrowd !important;
+    font-size: 34px !important;
+}
+
+.navbar-brand img {
+    padding-left: 10px;
+}
+
+/*Wood background*/
+body {
+    background-color: rgb(37, 37, 37) !important;
+    background-image: url(../img/wood-black.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Override default background*/
+html {
+    background-color: transparent !important;
+}
+
+/*Hide dropdown caret*/
+a.dropdown-toggle.nav-link:after{
+    display:none;
+}
+button.dropdown-toggle.btn.btn-primary:after{
+    display:none;
+}
+
+/*Color and Size of Login / Username in Navbar*/
+.contrast{
+    color: white !important;
+    font-size: 18px;
+}
+
+.img-profile{
+    margin-left: 15px;
+}
+
+.navIcon {
+    padding-right: 10px;
+    width: 60px;
+}
+.rcw-launcher {
+    z-index: 999999;
+    margin-bottom: 50px;
+    background-color: #4e73df;
+    font-family: "Gill Sans", sans-serif;
+}
+
+
+.rcw-conversation-container > .rcw-header {
+    background-color: #4e73df;
+    font-family: "Gill Sans", sans-serif;
+    
+  }
+
+  .rcw-widget-container {
+    width: 900px;
+  }
+
+  .rce-mbox-text {
+    white-space: pre-wrap;
+    }
+
+  .rcw-message-text {
+    font-family: "Gill Sans", sans-serif;
+  }
+
+  .rcw-client {
+    background: rgba(69,106,218,0.3);
+    color: white;
+    
+  }
+
+
+
+
+.padded{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.eventCard {
+    background-color: rgba(0, 0, 0, 0.404) !important;
+    /*background-color: rgba(255, 255, 255, 0.185) !important;*/
+    border-width:1px 1px 1px 6px!important;
+}
+
+.opac {
+    background-color: rgba(255, 255, 255, 0.822) !important;
+}
+
+.bord {
+    border-bottom: 4px solid rgb(207, 207, 207) !important;
+}
+
+.row a:hover {
+    text-decoration: none !important;
+}
+
+.eventCard:hover{
+    background-color: rgba(0, 0, 0, 0.226) !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.67) !important;
+    -moz-box-shadow:    0px 0px 6px 0px rgba(255, 255, 255, 0.67) !important;
+    box-shadow:         0px 0px 6px 0px rgba(255, 255, 255, 0.67) !important;
+}
+
+.notification-items {
+    height: 180px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.notification-menu > div {
+    width: 490px;
+}
+
+.guest-items {
+    width: 100%;
+    overflow-y: scroll;
+    width: 290px;
+    max-height: 200px;
+}
+
+.vertical-divider {
+    border-left: 1px solid white;
+}
+
+@media only screen and (max-width: 992px) {
+    .vertical-divider {
+        display:none !important;
+    }
+    .desktop {
+        display:none !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .mobile {
+        display:none !important;
+    }
+}
+
+.dropdown-items a:active {
+    color: initial !important;
+    background: rgb(194, 192, 192) !important;
+    background-color: rgb(194, 192, 192) !important;
+}
+
+.dropdown-items a {
+    border-top: 1px dashed darkgray;
+}
+
+.dropdown-items a:last-child {
+    border-bottom: 1px dashed darkgray;
+}
+
+#chat_button {
+
+    position: fixed;
+    bottom: 90px;
+    margin: 20px;
+    right: 0px;
+}
+
+.eventTableRow{
+    text-align: center;
+    font-size: 30px !important;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.profileView{
+    text-align: center;
+    font-size: 40px !important;
+    margin-bottom: 10px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.loginView{
+    text-align: center;
+    font-size: 30px !important;
+    margin-bottom: 10px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+
+.isRead {
+    color: gray;
+}
+
+.editIcon{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tooltipicon:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.171);
+    -webkit-box-shadow:inset 0px 0px 0px 1px rgb(192, 190, 190);
+    -moz-box-shadow:inset 0px 0px 0px 1px rgb(192, 190, 190);
+    box-shadow:inset 0px 0px 0px 1px rgb(192, 190, 190);
+}
+
+.rt-td{
+    margin: auto;
+}
+.loginStyle{
+    max-width: 500px;
+    margin-top:30px;
+    background-color: #C0C0C0;
+    border-radius: 25px;
+    opacity: 0.8
+}
+
+@-o-keyframes fadeIt {
+    0%   { background-color: #FFFFFF; }
+    50%  { background-color: rgb(251, 255, 0); }
+    100% { background-color: #FFFFFF; }
+}
+
+@keyframes fadeIt {
+    0%   { background-color: #FFFFFF; }
+    50%  { background-color: rgb(251, 255, 0); }
+    100% { background-color: #FFFFFF; }
+}
+
+.backgroundAnimated{
+    background-image:none !important;
+    -o-animation: fadeIt 0.5s ease-in-out;
+    animation: fadeIt 1s ease-in-out;
+}
+
+#eventname{
+    font-size: 50px !important;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    font-family: "Gill Sans", sans-serif;
+}
