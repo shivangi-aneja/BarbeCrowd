@@ -1,4 +1,4 @@
-# Software Engineering for Business Applications: Barbecrowd
+# Software Engineering for Business Applications: BarbeCrowd
 
 
 - ``app/`` contains the source code including backend and frontend. &rarr; [README](app/README.md)
